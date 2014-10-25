@@ -50,6 +50,11 @@ $('svg').remove();
 var counter;
 var wordList;
 
+$('#trex').click(function(event) {
+  console.log('clicky');
+  $('.secret').toggleClass('hidden');
+});
+
 // click handler
 $('button#submit-phrase').click(function(event) {
 

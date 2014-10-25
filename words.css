@@ -10,34 +10,33 @@ h1 {
     font-family: 'Bitter', serif;
     font-weight: 200;
     font-size: 300%;
-    word-spacing: 9px;
     margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .container {
-	height: 100%;
-	width: 630px;
-	margin: 0 auto; 
-	margin-top: 60px;
-	padding: 0;
-	position: relative;
-	text-align: center;
+  width: 630px;
+  margin: 0 auto; 
+  margin-top: 50px;
+  padding: 0;
+  position: relative;
+  text-align: center;
 }
 
 .form {
-	text-align: center;
+  text-align: center;
 }
 
 .directions {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #phrase { 
-    border-radius: 10px;  
-    border: solid 1px white;
-    width: 275px; 
-    font-size: 18px;
-    padding-left: 15px; /* indent the text box */
+  border-radius: 10px;  
+  border: solid 1px white;
+  width: 275px; 
+  font-size: 18px;
+  padding-left: 15px; /* indent the text box */
 } 
  
 button {
@@ -50,21 +49,34 @@ button {
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: #cc0;  /* yellow */
-    color: black;
+  cursor: pointer;
+  background-color: #cc0;  /* yellow */
+  color: black;
 }
 
 #word-cloud {
-	text-align:center;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
+  text-align:center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 img {
-	position: absolute;
-	top: -90px;
-	right: -70px;
+  position: absolute;
+  top: -85px;
+  right: -70px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.secret {
+  font-family: 'Permanent Marker', sans-serif;
+  width: 10%;
+  float: right;
+  margin-top: -70px;
+  margin-right: 185px;
+  font-size: 18px;
 }
