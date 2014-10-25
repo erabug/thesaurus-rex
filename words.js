@@ -50,7 +50,8 @@ $('svg').remove();
 var counter;
 var wordList;
 
-$('#trex').click(function(event) {
+$('#hat').click(function(event) {
+  event.preventDefault();
   console.log('clicky');
   $('.secret').toggleClass('hidden');
 });

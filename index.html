@@ -14,16 +14,20 @@
 
   <div class="secret hidden">RAWR!</div>
   <h1>Thesaurus Rex</h1>
-  <img id="trex" src="rex.png">
+  <img id="trex" src="rex.png" usemap="#rexmap">
 
-   <div class="form">
+  <map name="rexmap">
+    <area id="hat" shape="rect" coords="65,10, 110,50">
+  </map>
+
+  <div class="form">
     <form id="wordLookup">
 
         <input type="text" id="phrase" placeholder="Enter a word or phrase">
         <button type="submit" id="submit-phrase">Go</button>
 
     </form>
-   </div>
+  </div>
 
   </div>
 </div>
@@ -31,7 +35,6 @@
 <div id="word-cloud">
   <h2></h2>
 </div>
-
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="d3.js"></script>
