@@ -1,0 +1,70 @@
+body {
+    background-color: #333333; /* dark grey */
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+    font-weight: 200;
+    font-size: 300%;
+    word-spacing: 9px;
+    margin-top: 0;
+}
+
+.container {
+	height: 100%;
+	width: 630px;
+	margin: 0 auto; 
+	margin-top: 60px;
+	padding: 0;
+	position: relative;
+	text-align: center;
+}
+
+.form {
+	text-align: center;
+}
+
+.directions {
+	margin-bottom: 10px;
+}
+
+#phrase { 
+    border-radius: 10px;  
+    border: solid 1px white;
+    width: 275px; 
+    font-size: 18px;
+    padding-left: 15px; /* indent the text box */
+} 
+ 
+button {
+  background-color: #666666; /* medium grey */
+  color: white;
+  border-radius: 10px;
+  border: solid 1px white;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #cc0;  /* yellow */
+    color: black;
+}
+
+#word-cloud {
+	text-align:center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+img {
+	position: absolute;
+	top: -90px;
+	right: -70px;
+}
